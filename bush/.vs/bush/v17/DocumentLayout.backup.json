@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maciu\\repos\\C# exercises\\bush\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25638627-5B4F-492F-AAAB-7952C5058156}|bush\\bush.csproj|c:\\users\\maciu\\repos\\c# exercises\\bush\\bush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25638627-5B4F-492F-AAAB-7952C5058156}|bush\\bush.csproj|solutionrelative:bush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maciu\\repos\\C# exercises\\bush\\bush\\Program.cs",
+              "RelativeDocumentMoniker": "bush\\Program.cs",
+              "ToolTip": "C:\\Users\\maciu\\repos\\C# exercises\\bush\\bush\\Program.cs",
+              "RelativeToolTip": "bush\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:05:00.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
