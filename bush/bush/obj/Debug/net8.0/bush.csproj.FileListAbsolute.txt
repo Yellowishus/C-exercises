@@ -1,0 +1,15 @@
+C:\Users\maciu\repos\C# exercises\bush\bush\bin\Debug\net8.0\bush.exe
+C:\Users\maciu\repos\C# exercises\bush\bush\bin\Debug\net8.0\bush.deps.json
+C:\Users\maciu\repos\C# exercises\bush\bush\bin\Debug\net8.0\bush.runtimeconfig.json
+C:\Users\maciu\repos\C# exercises\bush\bush\bin\Debug\net8.0\bush.dll
+C:\Users\maciu\repos\C# exercises\bush\bush\bin\Debug\net8.0\bush.pdb
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.AssemblyInfoInputs.cache
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.AssemblyInfo.cs
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.csproj.CoreCompileInputs.cache
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.sourcelink.json
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.dll
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\refint\bush.dll
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.pdb
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\bush.genruntimeconfig.cache
+C:\Users\maciu\repos\C# exercises\bush\bush\obj\Debug\net8.0\ref\bush.dll
