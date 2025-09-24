@@ -1,15 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Nothing special only square bush.");
-
-for (int i = 0;i < 10;i++)
+Console.WriteLine("How big do you want your bush to be?");
+string bushNumber = Console.ReadLine();
+bushPrinter(int.Parse(bushNumber));
+void bushPrinter(int bushWidth)
 {
-    int j = 0;
-    while (j < 10)
-    { 
-        Console.Write("*");
-        j++;
+    for (int i = 0; i < bushWidth; i++)
+    {
+        int j = 0;
+        while (j <= i)
+        {
+            Console.Write("*");
+            j++;
+        }
+        Console.Write("\n");
     }
-    Console.Write("\n");
-    
 }
-
