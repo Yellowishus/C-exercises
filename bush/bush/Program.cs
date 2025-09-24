@@ -1,17 +1,32 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("How big do you want your bush to be?");
-string bushNumber = Console.ReadLine();
-bushPrinter(int.Parse(bushNumber));
-void bushPrinter(int bushWidth)
+using System.Linq.Expressions;
+bool tryAgain = true;
+while (tryAgain)
 {
-    for (int i = 0; i < bushWidth; i++)
+    try
     {
-        int j = 0;
-        while (j <= i)
+        Console.WriteLine("How big do you want your bush to be?");
+        bushPrinter();
+        tryAgain = false;
+
+        void bushPrinter()
         {
-            Console.Write("*");
-            j++;
+            string bushNumber = Console.ReadLine();
+            for (int i = 0; i < int.Parse(bushNumber); i++)
+            {
+                int j = 0;
+                while (j <= i)
+                {
+                    Console.Write("*");
+                    j++;
+                }
+                Console.Write("\n");
+            }
+            
         }
-        Console.Write("\n");
+    }
+    catch (FormatException)
+    {
+        Console.WriteLine("You need to write proper number.");
     }
 }
