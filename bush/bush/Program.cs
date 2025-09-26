@@ -12,13 +12,22 @@ while (tryAgain)
         void bushPrinter()
         {
             string bushNumber = Console.ReadLine();
+            float distanceFromLeft = (float.Parse(bushNumber) / 2);
             for (int i = 0; i < int.Parse(bushNumber); i++)
             {
+                float NOfSpaces = distanceFromLeft;
+                while (NOfSpaces > 0)
+                {
+                    Console.Write(" ");
+                    NOfSpaces--;
+                }
                 for (int j = 0; j <= i; j++)
                 {
+                    
                     Console.Write("*");
                 }
                 Console.Write("\n");
+                distanceFromLeft--;
             }
             
         }
