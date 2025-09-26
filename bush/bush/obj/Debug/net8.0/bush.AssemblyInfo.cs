@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bush")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb75cb4288d117fcb35cbe14a7ee4c653d26211c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8ee1c64943f2e751ed9420c5adf3b2a33563e57")]
 [assembly: System.Reflection.AssemblyProductAttribute("bush")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bush")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

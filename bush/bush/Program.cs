@@ -14,11 +14,9 @@ while (tryAgain)
             string bushNumber = Console.ReadLine();
             for (int i = 0; i < int.Parse(bushNumber); i++)
             {
-                int j = 0;
-                while (j <= i)
+                for (int j = 0; j <= i; j++)
                 {
                     Console.Write("*");
-                    j++;
                 }
                 Console.Write("\n");
             }
