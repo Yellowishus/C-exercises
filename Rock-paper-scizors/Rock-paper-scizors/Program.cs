@@ -22,7 +22,7 @@ string RPSGame()
         case "paper":
             return "paper";
         default:
-            return "Sorry i didint recognised your word. Before trying again you wrote it without using capital-letters.";
+            return "Sorry i didint recognised your word. Before trying again make sure you wrote it without using capital-letters.";
     }
     
 }
