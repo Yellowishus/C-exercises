@@ -13,5 +13,16 @@ string RPSGame()
     Console.WriteLine("Lets play Rock-Paper-Scisors game:");
     Console.WriteLine("Please type your choice");
     string shape = Console.ReadLine();
-    return shape;
+    switch (shape)
+    {
+        case "rock":
+            return "rock";
+        case "scisors":
+            return "scisors";
+        case "paper":
+            return "paper";
+        default:
+            return "Sorry i didint recognised your word. Before trying again you wrote it without using capital-letters.";
+    }
+    
 }
