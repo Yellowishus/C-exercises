@@ -2,13 +2,16 @@
 try
 {
     Console.WriteLine("Hello, World!");
-    RPSGame();
+    Console.WriteLine(RPSGame());
 }
 catch (FormatException fEm)
 {
     Console.WriteLine( fEm.Message );
 }
-var RPSGame()
+string RPSGame()
 {
-    
+    Console.WriteLine("Lets play Rock-Paper-Scisors game:");
+    Console.WriteLine("Please type your choice");
+    string shape = Console.ReadLine();
+    return shape;
 }
