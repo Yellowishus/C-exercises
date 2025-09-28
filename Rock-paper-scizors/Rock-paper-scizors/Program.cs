@@ -10,6 +10,9 @@ catch (FormatException fEm)
 }
 string RPSGame()
 {
+    Random rnd = new Random();
+    int oponentShape = rnd.Next(3); //oponentShape is one of three posible shapes 0=rock 1=paper 2=scisors 
+    Console.WriteLine(oponentShape);
     Console.WriteLine("Lets play Rock-Paper-Scisors game:");
     Console.WriteLine("Please type your choice");
     string shape = Console.ReadLine();
@@ -17,10 +20,10 @@ string RPSGame()
     {
         case "rock":
             return "rock";
-        case "scisors":
-            return "scisors";
         case "paper":
             return "paper";
+        case "scisors":
+            return "scisors";
         default:
             return "Sorry i didint recognised your word. Before trying again make sure you wrote it without using capital-letters.";
     }
