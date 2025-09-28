@@ -30,7 +30,7 @@ string RPSGame()
         }
         else
         {
-            return "error";
+            return messages("error");
         }
     }
     else if (shape == "paper")
@@ -49,7 +49,7 @@ string RPSGame()
         }
         else
         {
-            return "error";
+            return messages("error");
         }
     }
     else if (shape == "scisors")
@@ -68,21 +68,21 @@ string RPSGame()
         }
         else
         {
-            return "error";
+            return messages("error");
         }
     }
     else
     {
-        return "error";
+        return messages("error");
     }
 
 }
 string messages(string result)
 {
-    string victoryMessage = "victory";
-    string defeatMessage = "defeat";
-    string drawMessage = "draw";
-    string errorMessage = "error";
+    string victoryMessage = "Congratulations you won!";
+    string defeatMessage = "Unfortunatly you lost!";
+    string drawMessage = "Draw!!!";
+    string errorMessage = "You did something wrong try again!";
     if (result == "victory")
     {
         return victoryMessage;
@@ -95,5 +95,12 @@ string messages(string result)
     {
         return drawMessage;
     }
-    else return errorMessage;
+    else if (result == "error")
+    {
+        return errorMessage;
+    }
+    else
+    {
+        return errorMessage;
+    }
 }
